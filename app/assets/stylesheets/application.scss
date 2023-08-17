@@ -1,0 +1,25 @@
+@import './resets';
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@400;700&display=swap');
+
+body {
+  font-family: 'Sora', sans-serif;
+}
+
+@import './layout';
+@import './grid';
+@import './header';
+
+@import './hero';
+@import './mission';
+@import './belief';
+@import './offer';
+@import './how';
+@import './join';
+
+@import './confirmed';
+
+@import './features';
+@import './app-example';
+@import './belong-back';
+@import './footer';

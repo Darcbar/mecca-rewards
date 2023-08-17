@@ -1,0 +1,142 @@
+.body {
+  margin-top: 70px;
+}
+
+.container {
+  max-width: 1160px;
+  margin: 0 auto 0 auto;
+}
+
+.sprite {
+  background: url('sprite.png');
+}
+
+@media only screen and (-o-min-device-pixel-ratio: 5/4),
+       only screen and (-webkit-min-device-pixel-ratio: 1.25),
+       only screen and (min-device-pixel-ratio: 1.25),
+       only screen and (min-resolution: 1.25dppx) {
+    .sprite {
+      background: url('sprite@2x.png');
+      background-size: 400px 400px;
+    }
+}
+
+a.btn {
+  height: 40px;
+  line-height: 40px;
+  border-radius: 20px;
+  display: block;
+  background: black;
+  color: white;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 18px;
+}
+
+h2 {
+  font-size: 48px;
+}
+
+h3 {
+  font-size: 18px;
+}
+
+h1, h2, h3 {
+  font-weight: bold;
+}
+
+p {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+p.read {
+  font-size: 16px;
+}
+
+p.small {
+  font-size: 14px;
+}
+
+.center-content {
+  h1, h2, p {
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.reverse {
+  order: -1;
+}
+
+.content-section {
+  padding: 60px 15px 50px 15px;
+}
+
+.content-section.bottomless {
+  padding: 60px 15px 0 15px;
+}
+
+.content-section .content {
+  padding: 0;
+}
+
+@media (min-width: 600px) {
+  .content-section {
+    padding: 60px 20px 50px 20px;
+  }
+  .content-section.bottomless {
+    padding: 60px 20px 0 20px;
+  }
+  .content-section .content {
+    padding: 0 20px;
+  }
+}
+@media (min-width: 840px) {
+  .body {
+    margin-top: 100px;
+  }
+  .content-section {
+    padding: 80px 10px;
+  }
+
+  .content-section.bottomless {
+    padding: 80px 10px 0 10px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-section .content {
+    padding: 0 50px;
+  }
+}
+
+ul li {
+  padding-top: 25px;
+  p {
+    margin-top: 5px;
+  }
+}
+
+.gradient-candy {
+  position: relative;
+  background: rgb(169,245,240);
+  background: linear-gradient(162deg, rgba(169,245,240,1) 0%, rgba(230,169,243,1) 100%);
+}
+
+.scrolltop {
+  display: block;
+  width: 100%;
+  height: 60px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

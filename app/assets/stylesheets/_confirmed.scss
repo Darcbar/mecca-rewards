@@ -1,0 +1,33 @@
+#confirmed {
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .confirmed-body {
+    max-width: 480px;
+    margin: 0 auto;
+    i {
+      display: block;
+      width: 74px;
+      height: 74px;
+      background-position: 0 -300px;
+      margin: 0 auto;
+    }
+    h2 {
+      margin-top: 30px;
+      font-size: 28px;
+    }
+    h2, p, a {
+      text-align: center;
+    }
+    p,a {
+      margin-top: 20px;
+    }
+    a {
+      display: block;
+      text-decoration: none;
+      color: blue;
+    }
+  }
+}

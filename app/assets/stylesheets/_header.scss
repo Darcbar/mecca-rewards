@@ -1,0 +1,82 @@
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 70px;
+  line-height: 70px;
+  background: white;
+  z-index: 100;
+  overflow: hidden;
+
+  a#logo {
+    float: left;
+    display: block;
+    text-indent: -1000px;
+    width: 115px;
+    height: 40px;
+    margin: 15px 0 0 15px;
+  }
+
+  a.btn {
+    float: right;
+    margin: 15px 15px 0 0;
+    padding: 0 20px;
+  }
+
+  a.btn.outline {
+    background: white;
+    border: 1px solid #ccc;
+    color: black;
+    margin-right: 5px;
+  }
+}
+
+@media (min-width: 600px) {
+  header {
+    a#logo {
+      margin: 15px 0 0 20px;
+    }
+
+    a.btn {
+      margin: 15px 20px 0 0;
+      padding: 0 30px;
+    }
+
+    a.btn.outline {
+      margin-right: 15px;
+    }
+  }
+}
+
+@media (min-width: 800px) {
+  header {
+    height: 100px;
+    line-height: 100px;
+    a#logo {
+      margin: 30px 0 0 10px;
+    }
+    a.btn {
+      margin: 30px 10px 0 0;
+    }
+  }
+}
+
+@media (min-width: 1160px) {
+  header {
+    a#logo {
+      margin: 30px 0 0 0;
+    }
+
+    a.btn {
+      float: right;
+      margin: 30px 0 0 0;
+    }
+
+    a.btn.outline {
+      background: white;
+      border: 1px solid #ccc;
+      color: black;
+    }
+  }
+}

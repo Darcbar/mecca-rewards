@@ -1,0 +1,13 @@
+.app-detail {
+  i {
+    display: inline-block;
+    width: 170px;
+    height: 50px;
+  }
+  i.ios-icon {
+    background-position: 0 -200px;
+  }
+  i.android-icon {
+    background-position: -200px -200px;
+  }
+}
