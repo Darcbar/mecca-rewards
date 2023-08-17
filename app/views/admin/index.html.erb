@@ -1,0 +1,47 @@
+<section>
+  <div class="container">
+    <div class="grid">
+      <div class="column" style='background:#57fbea;'>
+        <div class="center-content content" style='padding: 50px;'>
+          <h2><%= @stats.clubs_count %></h2>
+          <p>Registered Clubs</p>
+        </div>
+      </div>
+      <div class="column" style='background:#57fbc3;'>
+        <div class="center-content content" style='padding: 50px;'>
+          <h2><%= @stats.members_count %></h2>
+          <p>TotalMembers</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section>
+  <div class="container">
+    <table>
+      <thead>
+        <tr>
+          <th scope="col">Name</th>
+          <th scope="col">Type</th>
+          <th scope="col">Website</th>
+          <th scope="col">Members</th>
+          <th scope="col">Contact</th>
+          <th scope="col">Email</th>
+        </tr>
+      </thead>
+      <tbody>
+        <% @clubs.each do |club| %>
+          <tr>
+            <td data-label="Name"><%= club.club_name %></td>
+            <td data-label="Club Type"><%= club.club_type %></td>
+            <td data-label="Website"><%= club.club_website %></td>
+            <td data-label="Members"><%= club.member_count %></td>
+            <td data-label="Contact"><%= club.contact_name %></td>
+            <td data-label="Email"><%= club.contact_email %></td>
+          </tr>
+        <% end %>
+      </tbody>
+    </table>
+  </div>
+</section>
