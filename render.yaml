@@ -3,6 +3,7 @@ databases:
     ipAllowList: []
     databaseName: mecca_rewards
     user: mecca_rewards
+    plan: free
 
 services:
   - type: web
