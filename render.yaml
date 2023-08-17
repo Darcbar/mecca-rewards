@@ -7,7 +7,6 @@ databases:
 services:
   - type: web
     name: mecca_rewards
-    plan: starter
     env: ruby
     buildCommand: "./render-build.sh"
     startCommand: "bundle exec rails s"
