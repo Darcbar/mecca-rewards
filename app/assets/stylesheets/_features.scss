@@ -5,6 +5,7 @@
   align-items: center;
 
   .feature {
+    padding: 0 20px;
     i {
       display: block;
       width: 60px;
@@ -36,6 +37,9 @@
 @media (min-width: 500px) {
   .features-grid {
     grid-template-columns: repeat(2, 1fr);
+    .feature {
+      padding: 0;
+    }
   }
 }
 
