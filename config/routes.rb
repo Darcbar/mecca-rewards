@@ -4,6 +4,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   get 'registered', to: 'welcome#registered'
+  get 'unsubscribe', to: 'welcome#unsubscribe'
   post 'welcome/create_club'
   root "welcome#index"
 end

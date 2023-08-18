@@ -14,6 +14,9 @@ class WelcomeController < ApplicationController
   def registered
   end
 
+  def unsubscribe
+  end
+
   private
 
   def club_params
